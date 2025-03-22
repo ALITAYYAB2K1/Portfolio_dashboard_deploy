@@ -33,7 +33,7 @@ import {
 } from "../components/ui/sheet";
 import Dashboard from "./sub-components/Dashboard";
 import { AddProject } from "./sub-components/AddProject";
-import { AddSkills } from "./sub-components/AddSkills";
+import { AddSkills } from "./sub-components/Addskills";
 import { AddSoftwareApplications } from "./sub-components/AddApplication";
 import { AddTimeline } from "./sub-components/AddTimeline";
 import { Messages } from "./sub-components/Messages";
