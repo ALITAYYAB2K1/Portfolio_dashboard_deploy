@@ -154,6 +154,7 @@ export const addSkill = (skillData) => async (dispatch) => {
         headers: {
           "Content-Type": "multipart/form-data",
         },
+        timeout: 30000, // 30 seconds
       }
     );
 

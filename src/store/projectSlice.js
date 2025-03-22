@@ -200,6 +200,7 @@ export const addProject = (projectData) => async (dispatch) => {
         headers: {
           "Content-Type": "multipart/form-data",
         },
+        timeout: 30000, // 30 seconds
       }
     );
 
@@ -230,6 +231,7 @@ export const updateProject = (id, projectData) => async (dispatch) => {
         headers: {
           "Content-Type": "multipart/form-data",
         },
+        timeout: 30000, // 30 seconds
       }
     );
 

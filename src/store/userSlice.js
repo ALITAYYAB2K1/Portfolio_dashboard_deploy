@@ -256,6 +256,7 @@ export const updateProfile = (userData) => async (dispatch) => {
         headers: {
           "Content-Type": "multipart/form-data",
         },
+        timeout: 30000, // 30 seconds
       }
     );
     dispatch(updateProfileSuccess(data.message));
